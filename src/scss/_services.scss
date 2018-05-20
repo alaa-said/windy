@@ -1,0 +1,18 @@
+.services{
+
+    @include  padding(50px,0px);
+
+    .windyan{
+            width:50%;
+            margin:0 auto;	        
+    }
+
+    .serv-col{
+        @include  padding(30px,30px);
+        background-color: $second_color;
+        img{
+            height:60px;
+        }
+    }
+
+}

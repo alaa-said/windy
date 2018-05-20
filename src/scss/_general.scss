@@ -1,0 +1,56 @@
+
+.title{
+	font-family: header_title,sans-serif,Verdana;
+}
+.sub_title{
+	font-family: header_sub_title,header_title,Verdana;
+}
+
+.font-color{
+	color:$main_color; 
+}
+
+.hr_col{
+      
+  margin:0px;
+  border: 1px solid $main_color;
+//   border-color:$main_color;
+  margin-bottom:20px;
+  width: 40px;
+  
+
+	  }
+.main_button{
+	// box-shadow: 1px 1px .3px .3px #cfcfcf;
+	background-color:$main_color;
+	// border:none;
+	font-family: header_title,sans-serif,Verdana;
+	color: #fff;
+	// padding: 10px 15px;
+	// border-radius: 5px;
+
+}
+
+@mixin img_header($url){
+	width: calc(100vw - 17px);
+	background-image: $url;
+	background-size: cover;
+	vertical-align: middle;  
+}
+
+@mixin padding($fnum,$snum){    
+    padding:$fnum $snum ;   
+}
+
+@mixin table($height,$width){
+    height: $height;
+    width: $width;
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    margin:0 auto;
+}
+.cell{
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,35 @@
+.our-staff{
+
+    @include  padding(50px,0px);
+
+    .windyan{
+            width:50%;
+            margin:0 auto;	        
+    }  
+    .base {
+        position:relative;
+    
+        .overlay{
+            position:absolute;
+            width:100%;
+            height:100%;
+            background-color:rgba(255,255,255,.7);
+            display:none !important;
+           
+        }
+    
+    
+    }
+    .base:hover .overlay{
+        display:flex !important;
+        cursor: zoom-in;
+
+       }
+
+       img{
+        
+           height: 60%;
+           width: 90%;
+       }
+
+}

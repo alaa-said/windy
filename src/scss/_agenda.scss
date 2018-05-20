@@ -1,0 +1,10 @@
+.agenda{
+    @include  padding(50px,0px);
+    background-color: $second_color;
+
+    .windyan{
+            width:50%;
+            margin:0 auto;	        
+    }
+
+}

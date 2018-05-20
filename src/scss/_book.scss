@@ -1,0 +1,13 @@
+.book{
+
+    @include img_header(url("../imgs/form.jpg"));
+    @include  padding(50px,0px);
+
+   
+    .formControl:active, .form-control:focus {
+        outline: none;
+        box-shadow: none;
+        border: 3px solid $main_color;
+    
+    }
+}
